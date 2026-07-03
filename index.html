@@ -15,6 +15,9 @@
       margin: 10px auto;
       border-radius: 10px;
     }
+    .card {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 
@@ -74,6 +77,22 @@
     <div class="container">
       <h1 class="title">Work Experience</h1>
       <hr />
+      <div class="card">
+        <div class="card-content">
+          <div style="display: flex; align-items: center;">
+            <figure>
+              <img class="experience-image" src="img/att-logo-white.png" alt="AT&T Logo" style="margin-right: 15px; max-width: 50px;">
+            </figure>
+            <p class="title is-4">AT&T</p>
+          </div>
+          <p class="subtitle is-6">Context Engineer (March 2026 - Present) • Alpharetta, USA</p>
+          <ul>
+            <li>Engineered 'OptiPricer,' an enterprise agentic data pipeline integrated within AT&T’s core web interface and Salesforce, utilizing Kubernetes (K8s) clusters for seamless orchestration and high-availability scaling.</li>
+            <li>Architected a dynamic multi-agent pipeline using FastAPI and Pydantic to ingest, parse, and structure heterogeneous unstructured and structured mobility data into strictly validated JSON schemas.</li>
+            <li>Accelerated data onboarding velocity by 30% and eliminated parsing errors for mid-market mobility sellers by decoupling schema enforcement from raw ingestion, ensuring 84.3% downstream data compliance.</li>
+          </ul>
+        </div>
+      </div>
       <div class="card">
         <div class="card-content">
           <div style="display: flex; align-items: center;">
